@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="12dp"
+    android:background="@drawable/widget_background">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MOON PHASE" android:textColor="#AABBD6" android:textSize="10sp" android:letterSpacing="0.18" />
+    <ImageView android:id="@+id/moon" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="6dp" android:src="@drawable/ic_moon" android:contentDescription="Moon phase" />
+    <TextView android:id="@+id/phase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Waxing Crescent" android:textColor="#F3F0E7" android:textSize="16sp" android:textStyle="bold" android:maxLines="1" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="10sp" android:autoSizeMaxTextSize="16sp" />
+    <TextView android:id="@+id/illumination" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="25% illuminated" android:textColor="#AABBD6" android:textSize="12sp" />
+</LinearLayout>
