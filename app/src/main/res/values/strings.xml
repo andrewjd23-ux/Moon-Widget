@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Moon Phase</string>
+    <string name="widget_description">The current moon phase and illumination. Tap to refresh.</string>
+</resources>
