@@ -1,8 +1,9 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
-    android:minWidth="180dp" android:minHeight="140dp"
-    android:targetCellWidth="3" android:targetCellHeight="2"
+    android:minWidth="40dp" android:minHeight="40dp"
+    android:minResizeWidth="40dp" android:minResizeHeight="40dp"
+    android:targetCellWidth="1" android:targetCellHeight="1"
     android:updatePeriodMillis="1800000"
-    android:initialLayout="@layout/moon_widget"
-    android:previewLayout="@layout/moon_widget"
+    android:initialLayout="@layout/moon_widget_compact"
+    android:previewLayout="@layout/moon_widget_compact"
     android:description="@string/widget_description"
     android:resizeMode="horizontal|vertical" android:widgetCategory="home_screen" />
